@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdamRussell-Political webpage</title>
+    <link rel="stylesheet" type="text/css" href="political-website.css">
+    <link rel="stylesheet" href="fontawesome-free-5.6.3-web\css\all.css ">
+    
+       
+    </style>
+</head>
+<style>
+     
+    *{
+        margin:0;
+        padding:0%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color:white;
+    }
+    footer{
+        background:#343434;
+        padding-top: 50px;
+
+    }
+    .containerr{
+        width:1140px;
+        margin:auto;
+        display:flex;
+        justify-content: center;
+    }
+    .footer-content{
+        width:33.3%;
+    }
+    .footer h3{
+        font-size:20px;
+        margin-bottom:15px;
+        text-align:center;
+    }
+
+    .footer-content p{
+        width:190px;
+        margin:auto;
+        padding:7px;
+    }
+    .footer-content ul{
+        text-align: center;
+    }
+    .list{
+        padding:0;
+    }
+    .list li{
+        width:auto;
+        text-align: center;
+        list-style-type: none;
+        padding: 7px;
+        position:relative;
+    }
+    .list li::before{
+        content:'';
+        position:absolute;
+        transform:translate(-50%,-50%);
+        left: 50%;
+        top:100%;
+        width:0;
+        height: 2px;
+        background:orangered;
+        transition-duration: .5s;
+
+    }
+    .list li:hover::before{
+        width:70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding:0;
+
+    }
+    .social-icons li{
+        display:inline-block;
+        text-align:center;
+        padding:5px;
+    }
+    .social-icons i{
+        color:white;
+        font-size:25px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color:orange;
+
+    }
+    .social-icons i:hover{
+        color:orange;
+    }
+    .bottom-bar{
+        background: orange;
+        text-align: center;
+        padding: 10px 0;
+        margin-top:50px;
+
+    }
+    .bottom-bar p{
+        color:black;
+        margin:0;
+        font-size: 16px;
+        padding: 7px;
+
+    }
+    
+
+</style>
+<body>
+    <!------>
+    
+   <div class="container">
+       <div class="header">
+           <img src="imgs/logo2(1).png" class="logo">
+           <div class="menu">
+               <ul>
+                   <li><a href="#">Home <div class="dropdown">
+                     <ul><br>
+                         <li>Home Layout</li><br><br>
+                         <li>Header Layout</li><br><br>
+                         <li>Footer Layout</li>
+                     </ul>
+                   </div></a></li>
+                   <li><a href="#">Pages <div class="dropdown">
+                    <ul>
+                        <li>About us</li><br><br>
+                        <li>Issues</li><br><br>
+                        <li>Get Involved</li><br><br>
+                        <li>Contact</li>
+                    </ul>
+                  </div></a></li>
+                   <li><a href="#">Events <div class="dropdown">
+                    <ul>
+                        <li>Event By Month</li><br><br>
+                        <li>Event List</li><br><br>
+                        <li>Event Post</li>
+                    </ul>
+                  </div></a></li>
+                   <li><a href="#">Media <div class="dropdown">
+                    <ul>
+                        <li>Grid Gallery</li><br><br>
+                        <li>instagram</li><br><br>
+                        <li>Youtube</li>
+                    </ul>
+                  </div></a></li>
+                   <li><a href="#">Features <div class="dropdown">
+                    <ul>
+                        <li>Short Codes</li><br><br>
+                        <li>Typography</li><br><br>
+                        <li>Columns</li>
+                    </ul>
+                  </div></a></li>
+                   <li><a href="#">News <div class="dropdown">
+                    <ul>
+                        <li>News1</li><br><br>
+                        <li>News02</li><br><br>
+                        <li>Single Blog Post</li>
+                    </ul>
+                  </div></a></li>
+                  <li><a href="#">Shop <div class="dropdown">
+                    <ul>
+                        <li>Category page</li><br><br>
+                        <li>Product page</li><br><br>
+                        <li>My Account</li><br><br>
+                        <li>Cart</li>
+                        
+                    </ul>
+                  </div></a></li>
+                   <li><i class="fa fa search" style="font-size:30px; color: #ff0045; margin-left:110px;"</li>
+                   <!--<input type="search" name="search" placeholder="Donate" > -->
+                    <button class="button" style="background-color: red; border-color: black; width:150px;
+                    height: 50px; " >DONATE</button>
+
+               </ul>
+           </div>
+           
+       </div>
+
+
+
+      <div class="content"></div>
+</div>  
+<div class="section">
+    <div class="box">
+        <div class="icon"><i class="fa fa-anchor"></i></div>
+        <h2>Our Mission</h2>
+        <p>To achieve our vision, we adopt an approach based on the universal nature of human rights, 
+           focusing particularly on the experience of women and girls from the Global South and recognising 
+           the need to eliminate multiple and intersecting forms of discrimination at all levels. </p>
+        
+    </div>
+    <div class="box">
+        <div class="icon"><i class="fa fa-bullhorn"></i></div>
+        <h2>Our Vision</h2>
+        <p>Our vision is of a world in which everyone enjoys human rights and fundamental freedoms on the basis of equality, 
+            without discrimination on the grounds of sex or gender, and free of oppressive power relationships,
+             with individuals and societies benefiting from sustainable and inclusive development.</p>
+        
+    </div>
+    <div class="box">
+        <div class="icon"><i class="fa fa-briefcase"></i></div>
+        <h2>Our Projects</h2>
+        <p>We are doing many projects for the betterment of the societies,animals,humans,nature etc.
+            we have build many bridges to overcome the traffic problems.we have build many bus tops ,railways stations
+            bike stands for the easyness of the people.Also for the animals we have done many things to protect them. 
+        </p>
+        
+    </div>
+    <div class="box">
+        <div class="icon"><i class="fa fa-users"></i></div>
+        <h2>Join Volunteers</h2>
+        <p>Join our party as a volunteer and be the part of our mission to protect the nature as well as the human
+           betterment.Be the part of the social causes and the help us to make our country better and resourceful.
+            </p>
+        
+    </div>
+
+</div>
+
+      
+<div class="section">
+    <div class="box">
+        <div class="icon"><i class="fa fa-anchor"></i></div>
+        <h2>Our Responsibility</h2>
+        <p>To achieve our vision, we adopt an approach based on the universal nature of human rights, 
+           focusing particularly on the experience of women and girls from the Global South and recognising 
+           the need to eliminate multiple and intersecting forms of discrimination at all levels. </p>
+        
+    </div>
+    <div class="box">
+        <div class="icon"><i class="fa fa-bullhorn"></i></div>
+        <h2>Our Priority</h2>
+        <p>Creating Jobs</p>
+        <p>Protecting Seniors</p>
+        <p>Protecting Medicare</p>
+        <p>Growing Economy and Many more...</p>
+
+            
+             
+        
+    </div>
+    <div class="box">
+        <div class="icon"><i class="fa fa-briefcase"></i></div>
+        <h2>Our Team</h2>
+        <p>Our Team includes many high Qualified members that are capable to handle and situation and conditions.
+            We always conduct meetings to know what are the challenges they are facing and we try to solve as early 
+            as possible.
+        </p>
+            
+             
+        
+        
+    </div>
+    <div class="box">
+        <div class="icon"><i class="fa fa-users"></i></div>
+        <h2>Our Volunteers</h2>
+        <p> Our party volunteers are trained and qualified too to protect our citizens form any unwanted situations.
+            We give Priority for the childrens and our beloved Senior citizens.They are equally valuable to the society.
+            </p>
+        
+    </div>
+
+</div>
+
+
+<!--image not displayed -->
+
+
+   <div class="cover">
+       <div class="boxx">
+           <img src="imgs/c.jpg">
+           <h2>Growing Our Economy</h2>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo beatae impedit ipsum aliquid
+                hic sapiente saepe iste exercitationem ab natus nostrum omnis neque quaerat
+               , eum, optio, quam tempore incidunt aliquam?</p>
+
+       </div>
+       <div class="boxx">
+        <img src="imgs/a.jpg">
+        <h2>Creating Jobs</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsam possimus labore delectus unde.
+             Dolores unde excepturi,
+             ipsam quos ratione ex, error cumque tenetur cum fugiat nostrum, vitae magnam. Autem.</p>
+
+    </div>
+    <div class="boxx">
+        <img src="imgs/b.jpg">
+        <h2>Protecting Seniors</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit dolorum cupiditate, expedita autem 
+            odit dolorem esse vero modi culpa a numquam enim,
+             perspiciatis eos ducimus, laborum voluptatibus id totam. Commodi.</p>
+
+    </div>
+           
+   </div>
+
+   <div class="cover">
+    <div class="boxx">
+        <img src="imgs/cs02.jpg">
+        <h2>Reducing Taxes</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo beatae impedit ipsum aliquid
+             hic sapiente saepe iste exercitationem ab natus nostrum omnis neque quaerat
+            , eum, optio, quam tempore incidunt aliquam?</p>
+
+    </div>
+    <div class="boxx">
+     <img src="imgs/cs05.jpg">
+     <h2>Balancing The Budget</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsam possimus labore delectus unde.
+          Dolores unde excepturi,
+          ipsam quos ratione ex, error cumque tenetur cum fugiat nostrum, vitae magnam. Autem.</p>
+
+ </div>
+ <div class="boxx">
+     <img src="imgs/cs06.jpg">
+     <h2>Building Infrastructures</h2>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit dolorum cupiditate, expedita autem 
+         odit dolorem esse vero modi culpa a numquam enim,
+          perspiciatis eos ducimus, laborum voluptatibus id totam. Commodi.</p>
+
+ </div>
+        
+</div>
+   <br>
+   <br>
+   
+   
+   
+
+     
+      <!--end-->
+    
+
+
+   <div class="banner-card">
+       <img src="imgs/cs.png">
+       <div class="banner-text">
+           <h3>Meet adamrussell</h3>
+           <p>.Adam Russel (fl. 1295) is an English politician. </p>
+              <p> He is a Member of the Parliament of England for Preston in 1295.[1] </p>
+              <p> He and Willielmus fil' (filius) Pauli were the first recorded members of Parliament.
+                </p>
+
+       </div>
+   </div>
+     <br>
+   <div class="banner-card">
+    <img src="imgs/cs08.jpg">
+    <div class="banner-text">
+        <h3>Adam Russell Positive Aims</h3>
+        <p>.Adam Russel fought for the equality of the minorities. </p>
+           <p> He handles the economy situation very effectively. </p>
+           <p> He manages the law and order situation very systematically .
+             </p>
+
+    </div>
+</div>
+
+
+       <!--------------->
+      <div class="containerc">
+          <h1 class="title">Why We Support Adam</h1>
+          <div class="about-content">
+              <div class="image">
+                <img src="imgs/cs03.png">
+              </div>
+              <div class="content">
+                  <p>"That government is best which governs least." "The people cannot delegate to government the power to do anything which would be unlawful for them to do themselves." 
+                      "Power tends to corrupt, and absolute power corrupts absolutely.”
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate incidunt tenetur facere alias non, sed
+                       similique quidem ipsum officiis ut deserunt.
+                       Repellendus sunt natus fugiat exercitationem ad distinctio, possimus quam!</p>
+                  <a href="" class="readmore">Read More </a>
+              </div>
+          </div>
+      </div>
+
+      <div class="containerc">
+        <h1 class="title">Why Choose adamrussell</h1>
+        <div class="about-content">
+            <div class="image">
+              <img src="imgs/cs07.jpg">
+            </div>
+            <div class="content">
+                <p>"That government is best which governs least." "The people cannot delegate to government the power to do anything which would be unlawful for them to do themselves." 
+                    "Power tends to corrupt, and absolute power corrupts absolutely.”
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate incidunt tenetur facere alias non, sed
+                     similique quidem ipsum officiis ut deserunt.
+                     Repellendus sunt natus fugiat exercitationem ad distinctio, possimus quam!</p>
+                <a href="" class="readmore">Read More </a>
+            </div>
+        </div>
+    </div>
+      <!--Background Image-->
+         
+         <div class="back-image">
+           <h1>News and Updates</h1><br><br><br><br><br><br><br><br>
+           <p>Freedom of the Press Foundation protects, defends,</p>
+               <p>and empowers public-interest</p>
+               <p>journalism in the 21st century.</p><br>
+           <button type="button" class="button1">Know More</button>
+
+         </div>
+
+
+
+      <!---->
+      <br>
+      
+
+      <div class="video1">
+          <video controls src="vi.mp4" type="video/mp4" width="800"></video>
+          <video controls src="vi01.mp4" type="video/mp4" width="800"></video>
+          
+      </div>
+
+       
+     
+      <!--footer-->
+
+<footer>
+    <div class="containerr">
+        <div class="footer-content">
+        <h3>Contact us</h3>
+        <p>Email:Info@adamrussell.com</p>
+        <p>PhoneNo:3245-458745</p>
+        <p>Address:-Adam Russell for Congress PO Box 3740,
+            Austin, TX, 78741</p>
+    </div>
+      
+
+     
+
+
+
+    <div class="footer-content">
+        <h3> Quick Links</h3>
+        <ul class="list">
+            <li a href=""> Our Party</li>
+            <li a href=""> Home</li>
+            <li a href=""> Endorsement</li>
+            <li a href=""> Gallery</li>
+            <li a href=""> Cart</li>
+            <li a href=""> Meet</li>
+        </ul>
+
+        
+
+    </div>
+
+    
+    <div class="footer-content">
+        <h3>Connect with us</h3>
+        <ul class="social-icons">
+        <a href=" "><i class="fa-brands fa-facebook-f"></i></a>
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+         </ul>
+    </div>
+    </div>
+    <div class="bottom-bar">
+        <p>&copy; copyright: 2024 Adam Russell for Congress.
+            All Rights Reserved.</p>
+
+    </div>
+    
+</footer>
+</body>
+</html>

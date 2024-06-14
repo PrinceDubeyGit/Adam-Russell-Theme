@@ -1,0 +1,336 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+    height: auto;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: url(imgs/pc.jpg);
+    background-size: cover;
+    background-position:center center;
+    background-position:center center;
+    background-repeat: no-repeat;
+    
+    
+}
+/*------*/
+.container-text{
+    position:absolute;
+    top: 30px;;
+    color:#fff;
+    padding: 10px;
+}
+.container-text h2{
+    font-size:30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+/*-------*/
+.header{
+    
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+    background-color:navy;
+    padding: 0;
+}
+
+.menu{
+    width:auto;
+    height:auto;
+    margin:0;
+    padding:0;
+
+}
+
+.menu ul{
+    margin:0;
+    padding:0;
+    text-align:center;
+
+}
+
+.menu ul li a{
+    display:block;
+    text-decoration: none; 
+    list-style-type:none;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bolder;
+    color:white;
+    padding:15px;
+    margin-left: 8px; 
+  /* margin-right: 20px; */
+    margin-top:5px;
+    transition-duration: 5s;
+}
+
+
+.menu ul li{
+    display: inline-block;
+    
+
+}
+
+.menu ul li a:hover{
+    background-color: #45bbff;
+    border-radius: 0 28px 0 28px;
+}
+
+/*dropdown*/
+ul li:hover{
+    background-color: orange;
+    color: black;
+}
+.dropdown{
+    display: none;
+    text-align:left;
+}
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    
+}
+.dropdown ul{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+/*----*/
+.logo{
+    width:150px;
+    height:100px;
+    position: relative;
+    float:left;
+    top:20px;
+    margin:0;
+    padding:0;
+    background-color:none;
+
+
+}
+
+input[type= search]{
+    width:300px;
+    height:40px;
+    background-color: transparent;
+    outline: none;
+    border:2px solid #000;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.content{
+    width:100%;
+    height:600px;
+
+}
+
+.section{
+      width:100%;
+      height:auto;
+      background-color: #45bbff;
+      display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #1aabff;
+    color:#ff0045;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    text-align: center;
+    margin:20px 0 0 0;
+}
+
+.box h2{
+    color:#fff;
+}
+
+.box .icon{
+    font-size: 2em;
+}
+
+
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+
+     width: 95%;
+     height: 450px;
+     
+}
+
+.banner-text{
+    position: absolute;
+    top:25%;
+    color:#fff;
+    padding: 20px;
+}
+
+banner-text h3{
+    
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/*for image with text */
+.containerc{
+    width:80%;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+.title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    color: black;
+
+}
+.about-content{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+
+}
+.image{
+    flex:1;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius:10px;
+}
+.image img{
+   /* max-height: 800px; */
+    height: 600px;
+    width: 90%;
+    transition: transform 0.3s ease;
+
+}
+.image:hover img{
+    transform: scale(1.1);
+}
+.content{
+   flex:1;
+   margin-left: 20px;
+}
+.content p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: black;
+    background-color:silver;
+}
+.readmore{
+    margin-top:20px;
+    display: inline-block;
+    padding:10px 20px;
+    background-color:darkblue;
+    font-size: 17px;
+    color:red;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+readmore:hover{
+    background-color:white;
+}
+
+
+/* for image not found 
+@import url('https://fonts.googleapis.com/css?faily=poppins:100,200,300,400,500,600,700')
+cover body{
+    background: #3333;
+    font-family: 'poppins',sans-serif;
+    align-items: center; 
+} */
+.cover{
+    width:900px ;
+    height:400px ;
+   /* background: #000; */
+    margin-top: 50px;
+      display: flex;
+    align-items: center;
+    font-family: 'poppins',sans-serif;
+ 
+}
+.boxx{
+    margin: 10px;
+    width: 800px;
+    height:400px;
+    padding: 0px;
+    box-shadow: -1px 0 10px #0000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+img{
+    width:400px ;
+    height: 200px;
+    padding: 0px;
+    display: flex;
+    
+}
+.boxx p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: black;
+    background-color:silver;
+}
+.boxx h2{
+    font-size: 20px;
+    line-height: 1;
+    color: black;
+    background-color:silver;
+}
+
+/*--ba.back image*/
+.back-image{
+    width: 900px;
+    height: 450px;
+    background-image: url(cs11.webp);
+    margin:0 auto;
+    box-shadow:5px 5px grey;
+
+}
+.back-image h1{
+    font-size: larger;
+    height: 100px;
+    color: red;
+    max-height: 20px;
+    text-align: center;
+    padding: 5px;
+
+}
+.back-image p{
+    padding: 5px;
+}
+.back-image .button1{
+    background-color: red;
+    padding: 5px;
+    margin-left: 10px;
+    
+}
+.back-image .button1:hover{
+    background-color: green;
+}
+
+ 
